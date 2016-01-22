@@ -12,6 +12,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.alibaba.fastjson.JSON;
+import com.cn.hnust.pojo.Book;
 import com.cn.hnust.pojo.User;
 import com.cn.hnust.service.IUserService;
 
@@ -23,7 +24,7 @@ public class TestMyBatis {
 //	private ApplicationContext ac = null;
   @Resource
   private IUserService userService = null;
-
+  
 //	@Before
 //	public void before() {
 //		ac = new ClassPathXmlApplicationContext("applicationContext.xml");
@@ -36,5 +37,11 @@ public class TestMyBatis {
     // System.out.println(user.getUserName());
     // logger.info("值："+user.getUserName());
     logger.info(JSON.toJSONString(user));
+  }
+  
+  @Test
+  public void test2(){
+	  Book book = userService.getBooksByName("送饭").get(0);
+	  logger.info(JSON.toJSONString(book));
   }
 }
