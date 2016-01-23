@@ -491,3 +491,31 @@ java.lang.IllegalStateException: @Resource annotation requires a single-arg meth
 [INFO] [2016-01-22 23:19:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
 [INFO] [2016-01-22 23:19:25][org.zsl.testmybatis.TestMyBatis]{"bookName":"ÈÄÅÈ•≠","bookStatus":"Â∑≤ÂÄüÂá∫"}
 [INFO] [2016-01-22 23:19:25][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@283a0f10: startup date [Fri Jan 22 23:19:23 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 00:55:48][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-01-24 00:55:48][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@3d8c4d8e: startup date [Sun Jan 24 00:55:48 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 00:55:48][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO] [2016-01-24 00:55:48][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-01-24 00:55:49][org.zsl.testmybatis.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"≤‚ ‘"}
+[INFO] [2016-01-24 00:55:49][org.zsl.testmybatis.TestMyBatis]{"bookName":"ÀÕ∑π","bookStatus":"“—ΩË≥ˆ"}
+[INFO] [2016-01-24 00:55:49][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@3d8c4d8e: startup date [Sun Jan 24 00:55:48 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 00:57:06][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-01-24 00:57:07][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@77795061: startup date [Sun Jan 24 00:57:07 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 00:57:07][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO] [2016-01-24 00:57:07][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-01-24 00:57:08][org.zsl.testmybatis.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"≤‚ ‘"}
+[INFO] [2016-01-24 00:57:08][org.zsl.testmybatis.TestMyBatis]{"bookName":"ÀÕ∑π","bookStatus":"“—ΩË≥ˆ"}
+[INFO] [2016-01-24 00:57:08][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@77795061: startup date [Sun Jan 24 00:57:07 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 01:01:28][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-01-24 01:01:28][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4a4802af: startup date [Sun Jan 24 01:01:28 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 01:01:28][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO] [2016-01-24 01:01:28][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-01-24 01:01:29][org.zsl.testmybatis.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"≤‚ ‘"}
+[INFO] [2016-01-24 01:01:29][org.zsl.testmybatis.TestMyBatis]{"bookName":"ÀÕ∑π","bookStatus":"“—ΩË≥ˆ"}
+[INFO] [2016-01-24 01:01:29][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4a4802af: startup date [Sun Jan 24 01:01:28 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 01:21:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-01-24 01:21:20][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@4a4802af: startup date [Sun Jan 24 01:21:20 CST 2016]; root of context hierarchy
+[INFO] [2016-01-24 01:21:20][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [config.properties]
+[INFO] [2016-01-24 01:21:20][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-01-24 01:21:21][org.zsl.testmybatis.TestMyBatis]{"age":24,"id":1,"password":"sfasgfaf","userName":"≤‚ ‘"}
+[INFO] [2016-01-24 01:21:21][org.zsl.testmybatis.TestMyBatis]{"bookName":"ÀÕ∑π","bookStatus":"“—ΩË≥ˆ"}
+[INFO] [2016-01-24 01:21:21][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@4a4802af: startup date [Sun Jan 24 01:21:20 CST 2016]; root of context hierarchy
