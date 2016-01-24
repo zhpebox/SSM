@@ -108,7 +108,6 @@
 	alert(es);
 	es.onmessage = function(event)
     {
-		alert(es);alert(event);
 		console.log(event);
         //这个方法没进来
         document.getElementById("displaytxt").innerHTML += event.data + "<br />";
